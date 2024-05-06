@@ -1,12 +1,14 @@
-.item h3 {
-  margin: 0.5rem 0;
-  font-size: 1.25rem;
+.item header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
 }
 
 .item header {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
+  margin-bottom: 0.5rem;
 }
 
 .price {
@@ -21,7 +23,13 @@
   color: #3a3a3a;
 }
 
-.actions {
-  display: flex;
-  justify-content: flex-end;
+.actions button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #4caf50; 
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }

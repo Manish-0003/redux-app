@@ -9,7 +9,7 @@ const Cart = (props) => {
 
   return (
     <Card className={classes.cart}>
-      <h2>Shopping Cart Items</h2>
+      <h2>𝑌𝑜𝑢𝑟 𝑆ℎ𝑜𝑝𝑝𝑖𝑛𝑔 𝐶𝑎𝑟𝑡</h2>
       <ul>
         {cartItems.map((item) => (
           <CartItem

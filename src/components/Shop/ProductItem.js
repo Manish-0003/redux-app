@@ -1,8 +1,8 @@
-import { useDispatch } from 'react-redux';
+import { useDispatch } from "react-redux";
 
-import { cartActions } from '../../store/cart-slice';
-import Card from '../UI/Card';
-import classes from './ProductItem.module.css';
+import { cartActions } from "../../store/cart-slice";
+import Card from "../UI/Card";
+import classes from "./ProductItem.module.css";
 
 const ProductItem = (props) => {
   const dispatch = useDispatch();
@@ -24,7 +24,7 @@ const ProductItem = (props) => {
       <Card>
         <header>
           <h3>{title}</h3>
-          <div className={classes.price}>Rs{price}</div>
+          <div className={classes.price}>₹{price}</div>
         </header>
         <p>{description}</p>
         <div className={classes.actions}>
